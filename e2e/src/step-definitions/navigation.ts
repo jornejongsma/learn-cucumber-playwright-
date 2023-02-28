@@ -1,8 +1,8 @@
 import { Given} from "@cucumber/cucumber";
 
-Given('I am on the home page',
-    async function () {
-        console.log('I am on the home page')
+Given('I am on the {string} page',
+    async function (pageId: string) {
+        console.log(`I am on the ${pageId} page`)
 
         await global.page.goto('http://localhost:3000/')
     })
