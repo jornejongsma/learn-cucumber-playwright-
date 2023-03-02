@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e2e/cucumber.js" afterDir="false" />
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="cucmber starting file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/Readmy.md" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/hooks/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/hooks/hooks.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,8 +191,16 @@
       <updated>1638155757223</updated>
       <workItem from="1675873923993" duration="1094000" />
       <workItem from="1677491231898" duration="5829000" />
-      <workItem from="1677580731135" duration="21327000" />
+      <workItem from="1677580731135" duration="22896000" />
     </task>
+    <task id="LOCAL-00001" summary="cucmber starting file">
+      <created>1677764416604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677764416604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,6 +277,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cucmber starting file" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucmber starting file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">

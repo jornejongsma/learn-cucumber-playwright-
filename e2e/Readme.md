@@ -40,3 +40,4 @@ Sanity testing is not scripted, but done manually.
 At the end of each test we close the page. At the end of all test we close the browser!
 
 
+## Video debug
