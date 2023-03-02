@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-visibility.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e2e/cucumber.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/Readmy.md" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/Readmy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/Readmy.md" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/features/home-page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/features/home-page.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/assertions/verify-element-vivibility.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/navigation.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,8 +161,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="dev server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.21.1/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="npm.cucumber:dev" />
+      <item itemvalue="npm.dev server" />
       <item itemvalue="npm.cucumber:smoke" />
       <item itemvalue="npm.cucumber:regression" />
     </list>
@@ -183,7 +191,7 @@
       <updated>1638155757223</updated>
       <workItem from="1675873923993" duration="1094000" />
       <workItem from="1677491231898" duration="5829000" />
-      <workItem from="1677580731135" duration="6468000" />
+      <workItem from="1677580731135" duration="21327000" />
     </task>
     <servers />
   </component>

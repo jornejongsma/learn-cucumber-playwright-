@@ -29,3 +29,14 @@
 
 Sanity testing is not scripted, but done manually.
 
+> Check why we don't use AfterAll hook with closing the browser, instead we close the browser after every test.
+
+## Hooks
+
+`global.browser.newContext();`, this is an isolated incognito like session with a browser instance, starting this before every test makes an complete isolated fresh session.
+
+`global.context.newPage();` A context can have multiple pages, but for every test we initiate one single new page
+
+At the end of each test we close the page. At the end of all test we close the browser!
+
+
