@@ -41,3 +41,14 @@ At the end of each test we close the page. At the end of all test we close the b
 
 
 ## Video debug
+
+See the Bofore and After hooks, there we setup screenshots when a test fails, and a video recording for every ran test.
+
+## Cucumber World setup
+
+Cucumber world is an isolated context for our scenario, we can set and recall some state for each scenario
+We can keep a state between steps with it.
+This is an advantage of using a global variable. A global variable could be overwritten when running tests in parallel.
+With cucumber world any state is stored independently from each test.
+
+* With World we can initialize our browser, page and context, instead of doing that within Hooks
