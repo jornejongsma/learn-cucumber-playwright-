@@ -52,3 +52,7 @@ This is an advantage of using a global variable. A global variable could be over
 With cucumber world any state is stored independently from each test.
 
 * With World we can initialize our browser, page and context, instead of doing that within Hooks
+
+## cucumber.js as entrypoint
+
+In this example we're going to use babel, to be able to use es6+ features in that script. Personally I think that this is not really needed.

@@ -6,9 +6,14 @@
   "scripts": {
     "cucumber:dev": "cucumber-js src/features/**/*.feature --tags @dev",
     "cucumber:smoke": "cucumber-js src/features/**/*.feature --tags @smoke",
-    "cucumber:regression": "cucumber-js src/features/**/*.feature --tags @regression"
+    "cucumber:regression": "cucumber-js src/features/**/*.feature --tags @regression",
+    "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
+    "cucumber": "yarn transpile && cucumber-js"
   },
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
     "@cucumber/cucumber": "^9.0.0",
     "@playwright/test": "^1.31.1",
     "playwright": "^1.31.1",
