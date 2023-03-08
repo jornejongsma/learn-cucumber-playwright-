@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="cucumber.js and babel compile">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/cucumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/cucumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +131,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.cucumber --profile regression">
+  <component name="RunManager" selected="npm.cucumber --profile dev">
     <configuration name="cucumber --profile dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/e2e/package.json" />
       <command value="run" />
@@ -198,7 +202,7 @@
       <workItem from="1675873923993" duration="1094000" />
       <workItem from="1677491231898" duration="5829000" />
       <workItem from="1677580731135" duration="35015000" />
-      <workItem from="1678287288618" duration="3459000" />
+      <workItem from="1678287288618" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="cucmber starting file">
       <created>1677764416604</created>
@@ -228,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678308680435</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cucumber.js and babel compile">
+      <created>1678308788856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308788856</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cucumber.js and babel compile">
+      <created>1678308835887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308835888</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
