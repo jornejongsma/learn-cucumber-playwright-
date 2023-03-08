@@ -1,9 +1,12 @@
-const os = require('os')
+const os = require('os');
+const dotenv = require('dotenv');
 
-const cpuCount = os.cpus().length
-const cpuCountUsed = cpuCount / 2
+dotenv.config({path: process.env['COMMON_CONFIG_FILE']})
 
-console.log(`Running on ${cpuCountUsed} of ${cpuCount} cores.`)
+const cpuCount = os.cpus().length;
+const cpuCountUsed = cpuCount / 2;
+
+console.log(`Running on ${cpuCountUsed} of ${cpuCount} cores.`);
 
 const common = `./src/features/**/*.feature \
                 --require-module ts-node/register \
@@ -15,4 +18,4 @@ const dev = `${common} --tags '@dev'`;
 const smoke = `${common} --tags '@smoke'`;
 const regression = `${common} --tags '@regression'`;
 
-module.exports = { dev, smoke, regression}
+module.exports = { dev, smoke, regression};

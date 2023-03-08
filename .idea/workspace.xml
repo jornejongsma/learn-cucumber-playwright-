@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="cucumber.js and babel compile">
+    <list default="true" id="bce1d527-c564-4480-ae27-6d22624bd655" name="Default Changelist" comment="without babel">
+      <change afterPath="$PROJECT_DIR$/e2e/env/common.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/e2e/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/cucumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/cucumber.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/e2e/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/step-definitions/setup/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e2e/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,9 +143,7 @@
       </scripts>
       <arguments value="--profile dev" />
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.21.1/bin/node" />
-      <envs>
-        <env name="UI_AUTOMATION_BROWSER" value="chromium" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="cucumber --profile regression" type="js.build_tools.npm">
@@ -153,9 +154,7 @@
       </scripts>
       <arguments value="--profile regression" />
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.21.1/bin/node" />
-      <envs>
-        <env name="UI_AUTOMATION_BROWSER" value="chromium" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="cucumber --profile smoke" type="js.build_tools.npm">
@@ -166,9 +165,7 @@
       </scripts>
       <arguments value="--profile smoke" />
       <node-interpreter value="$USER_HOME$/.nvm/versions/node/v14.21.1/bin/node" />
-      <envs>
-        <env name="UI_AUTOMATION_BROWSER" value="chromium" />
-      </envs>
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="dev server" type="js.build_tools.npm">
@@ -202,7 +199,7 @@
       <workItem from="1675873923993" duration="1094000" />
       <workItem from="1677491231898" duration="5829000" />
       <workItem from="1677580731135" duration="35015000" />
-      <workItem from="1678287288618" duration="4253000" />
+      <workItem from="1678287288618" duration="6366000" />
     </task>
     <task id="LOCAL-00001" summary="cucmber starting file">
       <created>1677764416604</created>
@@ -246,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678308835888</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="without babel">
+      <created>1678309680485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678309680485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -329,7 +333,8 @@
     <MESSAGE value="reports with screenshots and videos" />
     <MESSAGE value="Introducing Cucumber World, abstracting logi in Hooks" />
     <MESSAGE value="cucumber.js and babel compile" />
-    <option name="LAST_COMMIT_MESSAGE" value="cucumber.js and babel compile" />
+    <MESSAGE value="without babel" />
+    <option name="LAST_COMMIT_MESSAGE" value="without babel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">

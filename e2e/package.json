@@ -8,11 +8,12 @@
     "cucumber:smoke": "cucumber-js src/features/**/*.feature --tags @smoke",
     "cucumber:regression": "cucumber-js src/features/**/*.feature --tags @regression",
     "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
-    "cucumber": "cucumber-js"
+    "cucumber": "COMMON_CONFIG_FILE=env/common.env cucumber-js"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^9.0.0",
     "@playwright/test": "^1.31.1",
+    "dotenv": "^16.0.3",
     "playwright": "^1.31.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"

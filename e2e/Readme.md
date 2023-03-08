@@ -56,3 +56,9 @@ With cucumber world any state is stored independently from each test.
 ## cucumber.js as entrypoint
 
 In this example we're going to use babel, to be able to use es6+ features in that script. Personally I think that this is not really needed.
+
+## env file for configuration
+
+* in the yarn script we add a env tag taht tellls us where the common.env is
+* With that file we make all our configurations, and use those constants in places that is needs, like reports locations, borwser types, etc...
+* 
