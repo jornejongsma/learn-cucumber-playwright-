@@ -11,7 +11,7 @@ console.log(`Running on ${cpuCountUsed} of ${cpuCount} cores.`);
 const common = `./src/features/**/*.feature \
                 --require-module ts-node/register \
                 --require src/step-definitions/**/**/*.ts \
-                -f json: ./reports/report.json \
+                -f json:./reports/report.json \
                 --format progress-bar`;
 
 const dev = `${common} --tags '@dev'`;
