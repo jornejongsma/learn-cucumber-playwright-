@@ -61,4 +61,14 @@ In this example we're going to use babel, to be able to use es6+ features in tha
 
 * in the yarn script we add a env tag taht tellls us where the common.env is
 * With that file we make all our configurations, and use those constants in places that is needs, like reports locations, borwser types, etc...
+
+
+## Mappings
+
+In this tutorial we're gooing to create mappings so that we can abstract selections.
+We're going te extend Cucumber World, so that we can make a global configuration across our suite
+
+This setup creates mappings for:
+* Hosts
+* Pages
 * 
