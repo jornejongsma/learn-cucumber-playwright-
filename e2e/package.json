@@ -6,11 +6,7 @@
   "scripts": {
     "cucumber:dev": "cucumber-js src/features/**/*.feature --tags @dev",
     "cucumber:smoke": "cucumber-js src/features/**/*.feature --tags @smoke",
-    "cucumber:regression": "cucumber-js src/features/**/*.feature --tags @regression",
-    "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
-    "precucumber": "rimraf reports && mkdir reports && echo {} > reports/report.json",
-    "cucumber": "COMMON_CONFIG_FILE=env/common.env cucumber-js",
-    "postcucumber": "COMMON_CONFIG_FILE=env/common.env ts-node ./src/reporter/cucumber-report.ts"
+    "cucumber:regression": "cucumber-js src/features/**/*.feature --tags @regression"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^9.0.0",
