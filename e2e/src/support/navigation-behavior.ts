@@ -7,14 +7,11 @@ export async function navigateToPage(page: Page, pageId: PageId, { pagesConfig, 
     } = process.env;
 
     const hostPath = hostsConfig[`${hostName}`]
-    console.log({hostPath})
 
     const url = new URL(hostPath);
-    console.log({url})
 
     const pagesConfigItem = pagesConfig[pageId];
     url.pathname = pagesConfigItem.route;
-    console.log("pages route ", url.pathname)
 
     await page.goto(url.href);
 }

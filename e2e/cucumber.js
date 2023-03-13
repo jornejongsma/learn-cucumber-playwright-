@@ -1,9 +1,11 @@
 const os = require('os');
 const dotenv = require('dotenv');
+const fs = require('fs');
 // import {
 //     GlobalConfig,
 //     HostsConfig,
-//     PagesConfig
+//     PagesConfig,
+//     PageElementMappings
 // } from "./src/env/global";
 
 dotenv.config({path: process.env['COMMON_CONFIG_FILE']})
@@ -12,14 +14,21 @@ const getJsonFromFile = (path) => require(`${process.cwd()}${path}`)
 
 const hostsConfig = getJsonFromFile(process.env['HOSTS_URL_PATH'])
 const pagesConfig = getJsonFromFile(process.env['PAGES_URL_PATH'])
+const mappingFiles = fs.readdirSync(`${process.cwd()}${process.env['PAGE_ELEMENTS_PATH']}`)
 
-console.log("hostsConfig: ",  hostsConfig);
-console.log("pagesConfig: ", pagesConfig);
+const pageElementMappings = mappingFiles.reduce((pageElementConfigAcc, file) => {
+    const key = file.replace('.json',  '')
+    const elementMappings = getJsonFromFile(`${process.env['PAGE_ELEMENTS_PATH']}${file}`)
+    return {...pageElementConfigAcc, [key]: elementMappings}
+}, {})
 
 const worldParameters = {
     hostsConfig,
-    pagesConfig
+    pagesConfig,
+    pageElementMappings
 }
+
+
 
 const cpuCount = os.cpus().length;
 const cpuCountUsed = cpuCount / 2;
